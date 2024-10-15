@@ -3,7 +3,7 @@ awscli==1.29.45
 azure-identity==1.14.1
 azure-mgmt-resource==23.0.1
 boto3==1.28.45
-codeowners==0.6.0
+codeowners==0.7.0
 datadog-api-client==2.16.0
 docker-squash==1.1.0
 docker==5.0.3; python_version < '3.7'
