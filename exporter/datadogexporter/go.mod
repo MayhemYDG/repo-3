@@ -20,12 +20,12 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor v0.60.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver v0.60.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/collector v0.60.1-0.20220923151520-96e9af35c002
 	go.opentelemetry.io/collector/pdata v0.60.1-0.20220923151520-96e9af35c002
 	go.opentelemetry.io/collector/semconv v0.60.1-0.20220923151520-96e9af35c002
-	go.uber.org/multierr v1.8.0
-	go.uber.org/zap v1.23.0
+	go.uber.org/multierr v1.10.0
+	go.uber.org/zap v1.27.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/zorkian/go-datadog-api.v2 v2.30.0
 	k8s.io/apimachinery v0.25.2
@@ -121,7 +121,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.22.8 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/objx v0.4.0 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/theupdateframework/go-tuf v0.3.0 // indirect
 	github.com/tinylib/msgp v1.1.6 // indirect
 	github.com/tklauser/go-sysconf v0.3.10 // indirect
