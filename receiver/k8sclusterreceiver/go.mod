@@ -17,7 +17,7 @@ require (
 	go.opentelemetry.io/collector/semconv v0.60.1-0.20220923151520-96e9af35c002
 	go.uber.org/atomic v1.10.0
 	go.uber.org/zap v1.23.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.35.1
 	k8s.io/api v0.25.2
 	k8s.io/apimachinery v0.25.2
 	k8s.io/client-go v0.25.2
