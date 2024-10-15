@@ -1,4 +1,4 @@
-PyGithub==1.59.1
+PyGithub==2.4.0
 awscli==1.29.45
 azure-identity==1.14.1
 azure-mgmt-resource==23.0.1
