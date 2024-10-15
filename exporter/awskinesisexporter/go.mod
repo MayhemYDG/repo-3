@@ -9,7 +9,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kinesis v1.15.19
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.19
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/jaegertracing/jaeger v1.38.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.60.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.60.0
