@@ -13,11 +13,11 @@ require (
 	github.com/jaegertracing/jaeger v1.38.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.60.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.60.0
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/collector v0.60.1-0.20220923151520-96e9af35c002
 	go.opentelemetry.io/collector/pdata v0.60.1-0.20220923151520-96e9af35c002
-	go.uber.org/multierr v1.8.0
-	go.uber.org/zap v1.23.0
+	go.uber.org/multierr v1.10.0
+	go.uber.org/zap v1.27.0
 )
 
 require (
@@ -31,7 +31,6 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.23 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.13.5 // indirect
 	github.com/aws/smithy-go v1.13.3 // indirect
-	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
