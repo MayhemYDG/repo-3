@@ -101,7 +101,7 @@ require (
 	golang.org/x/oauth2 v0.6.0
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.6.0
-	golang.org/x/time v0.3.0
+	golang.org/x/time v0.7.0
 	google.golang.org/genproto v0.0.0-20220921223823-23cae91e6737
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.28.1
