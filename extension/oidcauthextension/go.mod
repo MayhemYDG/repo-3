@@ -4,9 +4,9 @@ go 1.18
 
 require (
 	github.com/coreos/go-oidc v2.2.1+incompatible
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/collector v0.60.1-0.20220923151520-96e9af35c002
-	go.uber.org/zap v1.23.0
+	go.uber.org/zap v1.27.0
 )
 
 require (
@@ -29,8 +29,7 @@ require (
 	go.opentelemetry.io/otel v1.10.0 // indirect
 	go.opentelemetry.io/otel/metric v0.32.1 // indirect
 	go.opentelemetry.io/otel/trace v1.10.0 // indirect
-	go.uber.org/atomic v1.10.0 // indirect
-	go.uber.org/multierr v1.8.0 // indirect
+	go.uber.org/multierr v1.10.0 // indirect
 	golang.org/x/crypto v0.0.0-20220507011949-2cf3adece122 // indirect
 	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
