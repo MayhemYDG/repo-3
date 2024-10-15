@@ -330,13 +330,13 @@ jobs:
         '
     - continue-on-error: true
       if: ${{ matrix.goos == 'linux' }}
-      uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce
+      uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882
       with:
         name: ${{ env.RPM_PACKAGE }}
         path: out/${{ env.RPM_PACKAGE }}
     - continue-on-error: true
       if: ${{ matrix.goos == 'linux' }}
-      uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce
+      uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882
       with:
         name: ${{ env.DEB_PACKAGE }}
         path: out/${{ env.DEB_PACKAGE }}
@@ -1462,7 +1462,7 @@ jobs:
         product: ${{ env.PKG_NAME }}
         version: ${{ needs.set-product-version.outputs.product-version }}
     - continue-on-error: true
-      uses: actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce
+      uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882
       with:
         name: metadata.json
         path: ${{ steps.generate-metadata-file.outputs.filepath }}

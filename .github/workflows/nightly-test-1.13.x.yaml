@@ -272,7 +272,7 @@ jobs:
       working-directory: ./ui/packages/consul-ui
     - continue-on-error: true
       name: Upload ENT Frontend
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         if-no-files-found: error
         name: frontend-ent-${{ env.BRANCH_NAME }}
@@ -548,7 +548,7 @@ jobs:
       working-directory: ./ui/packages/consul-ui
     - continue-on-error: true
       name: Upload OSS Frontend
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         if-no-files-found: error
         name: frontend-oss-${{ env.BRANCH_NAME }}
