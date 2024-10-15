@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/SAP/go-hdb v0.108.2
 	github.com/denisenkom/go-mssqldb v0.12.2
-	github.com/docker/go-connections v0.4.0
+	github.com/docker/go-connections v0.5.0
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/lib/pq v1.10.7
 	github.com/sijms/go-ora/v2 v2.5.3
@@ -86,7 +86,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
 	golang.org/x/exp v0.0.0-20220713135740-79cabaa25d75 // indirect
 	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9 // indirect
-	golang.org/x/sys v0.0.0-20220808155132-1c4a2a72c664 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20220617124728-180714bec0ad // indirect
