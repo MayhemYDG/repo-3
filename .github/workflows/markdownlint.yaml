@@ -249,7 +249,7 @@ jobs:
       name: Checkout repository
       uses: actions/checkout@v4
     - continue-on-error: true
-      uses: DavidAnson/markdownlint-cli2-action@v9
+      uses: DavidAnson/markdownlint-cli2-action@v17
       with:
         command: config
         globs: '.github/.markdownlint.json
