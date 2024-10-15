@@ -258,7 +258,7 @@ jobs:
     - continue-on-error: true
       id: fluentbit-cache
       name: Fluentbit Cache
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: fluentbit-cache-1.5.3
         path: /opt/td-agent-bit
@@ -280,7 +280,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: loadtest-${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -593,7 +593,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: loadtest-${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin

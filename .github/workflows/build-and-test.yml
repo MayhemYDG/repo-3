@@ -1330,7 +1330,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -1640,7 +1640,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -1918,7 +1918,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -2198,7 +2198,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -2507,7 +2507,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -3034,7 +3034,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -3052,7 +3052,7 @@ jobs:
       run: make install-tools
     - continue-on-error: true
       name: Cache Lint Build
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-lint-build-${{ matrix.group }}-${{ runner.os }}-${{ hashFiles('**/go.sum')
           }}
@@ -3603,7 +3603,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -3939,7 +3939,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -4227,7 +4227,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -4764,7 +4764,7 @@ jobs:
     - continue-on-error: true
       id: go-cache
       name: Cache Go
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-cache-${{ runner.os }}-${{ hashFiles('**/go.sum') }}
         path: '~/go/bin
@@ -4782,7 +4782,7 @@ jobs:
       run: make install-tools
     - continue-on-error: true
       name: Cache Test Build
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: go-test-build-${{ runner.os }}-${{ matrix.go-version }}-${{ hashFiles('**/go.sum')
           }}
