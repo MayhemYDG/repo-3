@@ -11,8 +11,8 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.60.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.60.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.60.0
-	github.com/openzipkin/zipkin-go v0.4.0
-	github.com/stretchr/testify v1.8.0
+	github.com/openzipkin/zipkin-go v0.4.3
+	github.com/stretchr/testify v1.8.1
 	go.opencensus.io v0.23.0
 	go.opentelemetry.io/collector v0.60.1-0.20220923151520-96e9af35c002
 	go.opentelemetry.io/collector/pdata v0.60.1-0.20220923151520-96e9af35c002
@@ -25,23 +25,23 @@ require (
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/census-instrumentation/opencensus-proto v0.4.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/eapache/go-resiliency v1.3.0 // indirect
-	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
+	github.com/eapache/go-resiliency v1.6.0 // indirect
+	github.com/eapache/go-xerial-snappy v0.0.0-20230731223053-c322873962e3 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/hashicorp/errwrap v1.0.0 // indirect
+	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/jcmturner/aescts/v2 v2.0.0 // indirect
 	github.com/jcmturner/dnsutils/v2 v2.0.0 // indirect
 	github.com/jcmturner/gofork v1.7.6 // indirect
-	github.com/jcmturner/gokrb5/v8 v8.4.3 // indirect
+	github.com/jcmturner/gokrb5/v8 v8.4.4 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.15.10 // indirect
+	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/knadh/koanf v1.4.3 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -50,7 +50,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus v0.60.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
-	github.com/pierrec/lz4/v4 v4.1.15 // indirect
+	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
@@ -63,13 +63,13 @@ require (
 	go.opentelemetry.io/otel/trace v1.10.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
-	golang.org/x/net v0.0.0-20220809184613-07c6da5e1ced // indirect
-	golang.org/x/sys v0.0.0-20220808155132-1c4a2a72c664 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/genproto v0.0.0-20220822174746-9e6da59bd2fc // indirect
-	google.golang.org/grpc v1.49.0 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
+	golang.org/x/crypto v0.22.0 // indirect
+	golang.org/x/net v0.24.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240415180920-8c6c420018be // indirect
+	google.golang.org/grpc v1.63.2 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
