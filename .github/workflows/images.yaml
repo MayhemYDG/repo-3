@@ -263,7 +263,7 @@ jobs:
     - continue-on-error: true
       if: ${{ github.event_name == 'merge_group' }}
       name: Az CLI login
-      uses: azure/login@v1
+      uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - continue-on-error: true
@@ -535,7 +535,7 @@ jobs:
       uses: docker/setup-qemu-action@v3
     - continue-on-error: true
       name: Azure CLI login
-      uses: azure/login@v1
+      uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - continue-on-error: true
@@ -811,7 +811,7 @@ jobs:
     - continue-on-error: true
       if: ${{ github.event_name == 'merge_group' }}
       name: Az CLI login
-      uses: azure/login@v1
+      uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - continue-on-error: true
@@ -1094,7 +1094,7 @@ jobs:
     - continue-on-error: true
       if: ${{ github.event_name == 'merge_group' }}
       name: Az CLI login
-      uses: azure/login@v1
+      uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - continue-on-error: true
@@ -1378,7 +1378,7 @@ jobs:
     - continue-on-error: true
       if: ${{ github.event_name == 'merge_group' }}
       name: Az CLI login
-      uses: azure/login@v1
+      uses: azure/login@v2
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - continue-on-error: true
