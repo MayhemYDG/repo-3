@@ -18,7 +18,7 @@ python-gitlab==4.4.0
 reno==3.5.0
 requests==2.31.0
 ruff==0.3.5
-semver==2.10.0
+semver==3.0.2
 setuptools==42.0.2
 toml==0.10.2
 # mypy
