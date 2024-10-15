@@ -252,7 +252,7 @@ jobs:
         fetch-depth: 0
     - continue-on-error: true
       id: install
-      uses: azure/setup-helm@v4.1.0
+      uses: azure/setup-helm@v4.2.0
     - continue-on-error: true
       name: Log in to registry
       run: echo "${{ secrets.GITHUB_TOKEN }}" | helm registry login ghcr.io -u $ --password-stdin
