@@ -1,8 +1,7 @@
 module github.com/grafana/terraform-provider-grafana/v3
 
 go 1.22.0
-
-toolchain go1.22.5
+toolchain go1.23.2
 
 require (
 	github.com/Masterminds/semver/v3 v3.3.0
@@ -14,7 +13,7 @@ require (
 	github.com/grafana/grafana-openapi-client-go v0.0.0-20240723170622-ae2c94b7c9a3
 	github.com/grafana/machine-learning-go-client v0.8.2
 	github.com/grafana/slo-openapi-client/go/slo v0.0.0-20240807172758-1b7d00838fc7
-	github.com/grafana/synthetic-monitoring-agent v0.25.2
+	github.com/grafana/synthetic-monitoring-agent v0.28.1
 	github.com/grafana/synthetic-monitoring-api-go-client v0.8.0
 	github.com/hashicorp/go-cty v1.4.1-0.20200414143053-d3edf31b6320
 	github.com/hashicorp/go-retryablehttp v0.7.7
@@ -35,7 +34,7 @@ require (
 	github.com/tmccombs/hcl2json v0.6.4
 	github.com/urfave/cli/v2 v2.27.5
 	github.com/zclconf/go-cty v1.15.0
-	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
+	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
 	golang.org/x/text v0.19.0
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -165,12 +164,12 @@ require (
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/sys v0.25.0 // indirect
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e // indirect
-	golang.org/x/tools v0.23.0 // indirect
+	golang.org/x/tools v0.25.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240822170219-fc7c04adadcd // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142 // indirect
-	google.golang.org/grpc v1.66.2 // indirect
+	google.golang.org/grpc v1.67.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7 // indirect
 	gopkg.in/validator.v2 v2.0.1 // indirect
