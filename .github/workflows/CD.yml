@@ -276,7 +276,7 @@ jobs:
         role-to-assume: ${{ secrets.COLLECTOR_ASSUMABLE_ROLE_ARN }}
     - continue-on-error: true
       name: Login Dockerhub
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         password: ${{ secrets.DOCKERHUB_RELEASE_TOKEN }}
         username: ${{ secrets.DOCKERHUB_RELEASE_USERNAME }}
@@ -1395,13 +1395,13 @@ jobs:
       id: login-ecr
       if: steps.release-version-image.outputs.cache-hit != 'true'
       name: Login to Public Release ECR
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         registry: public.ecr.aws
     - continue-on-error: true
       if: steps.release-version-image.outputs.cache-hit != 'true'
       name: Login Dockerhub
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         password: ${{ secrets.DOCKERHUB_RELEASE_TOKEN }}
         username: ${{ secrets.DOCKERHUB_RELEASE_USERNAME }}

@@ -503,7 +503,7 @@ jobs:
       env:
         AWS_REGION: us-east-1
       name: Login to Public Release ECR
-      uses: docker/login-action@v2
+      uses: docker/login-action@v3
       with:
         password: ${{ secrets.RELEASE_SECRET }}
         registry: public.ecr.aws
