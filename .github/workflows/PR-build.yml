@@ -1929,7 +1929,7 @@ jobs:
         DOCKER_BUILDKIT: 1
       if: ${{ needs.changes.outputs.changed == 'true' }}
       name: Run test
-      uses: nick-invision/retry@v2
+      uses: nick-invision/retry@v3
       with:
         command: 'if [[ -f testing-framework/terraform/testcases/${{ matrix.testcase
           }}/parameters.tfvars ]] ; then opts="-var-file=../testcases/${{ matrix.testcase
