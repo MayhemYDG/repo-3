@@ -780,14 +780,14 @@ jobs:
         registry: public.ecr.aws
     - continue-on-error: true
       name: Rollback ECR latest
-      uses: akhilerm/tag-push-action@v2.1.0
+      uses: akhilerm/tag-push-action@v2.2.0
       with:
         dst: public.ecr.aws/${{ env.ECR_REPO }}:latest
         src: public.ecr.aws/${{ env.ECR_REPO }}:${{ github.event.inputs.rollback-version
           }}
     - continue-on-error: true
       name: Rollback DockerHub latest
-      uses: akhilerm/tag-push-action@v2.1.0
+      uses: akhilerm/tag-push-action@v2.2.0
       with:
         dst: ${{ env.DOCKERHUB_REPO }}:latest
         src: ${{ env.DOCKERHUB_REPO }}:${{ github.event.inputs.rollback-version }}

@@ -1409,7 +1409,7 @@ jobs:
       if: steps.release-version-image.outputs.cache-hit != 'true'
       name: Pull image from integration test ECR and Upload to public release ECR
         and Dockerhub
-      uses: akhilerm/tag-push-action@v2.1.0
+      uses: akhilerm/tag-push-action@v2.2.0
       with:
         dst: 'public.ecr.aws/${{ env.ECR_REPO }}:${{ needs.release-checking.outputs.version
           }}
@@ -1425,7 +1425,7 @@ jobs:
         != 'true'}}
       name: Pull image from release ECR, tag as latest and push to public release
         ECR and DockerHub
-      uses: akhilerm/tag-push-action@v2.1.0
+      uses: akhilerm/tag-push-action@v2.2.0
       with:
         dst: 'public.ecr.aws/${{ env.ECR_REPO }}:latest
 
