@@ -3527,7 +3527,7 @@ jobs:
         '
     - continue-on-error: true
       name: Trigger performance test
-      uses: peter-evans/repository-dispatch@v2
+      uses: peter-evans/repository-dispatch@v3
       with:
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
         event-type: trigger-perf
